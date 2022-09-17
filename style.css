@@ -1,0 +1,45 @@
+*{
+    font-family: roboto;
+    padding: 20px;
+}
+
+th, td {
+    border: 1px solid #fdc108;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background: #382c6e;
+    color:white;
+    font-weight: 400;
+}
+
+table{
+    border: 2px solid #fdc108;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background: #382c6e;
+    color:white;
+    text-align: left;
+}
+
+thead {
+    background: #fec107;
+    text-align: center;
+}
+
+.surname-color {
+    background: #e5ae30;
+}
+
+.name, .surname-color, .age{
+    color: black;
+    font-weight: bold;
+    width: 150px;
+}
+
+.name, .age {
+    background: #fdc108;
+}
+
+td {
+    font-weight: bold;
+}
